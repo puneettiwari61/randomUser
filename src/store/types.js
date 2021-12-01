@@ -1,2 +1,1 @@
-export const ADD = "ADD";
-export const SHOW = "SHOW";
+export const GET_USER = "GET_USER";

@@ -1,8 +1,8 @@
-import { ADD } from "./types";
+import { GET_USER } from "./types";
 
-export const add = (data) => {
+export const getUser = (data) => {
   return {
-    type: ADD,
+    type: GET_USER,
     payload: data,
   };
 };
