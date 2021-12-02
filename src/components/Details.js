@@ -10,7 +10,7 @@ const Details = ({ user }) => {
         <img src={user.image} alt={user.name} />
       </div>
       <div className="basic_details">
-        <div>
+        <div className="name_wrapper">
           <span className="name">{user.name}</span>
           <IoLocationSharp className="location_icon" />
           <span className="location">{user.country}</span>
