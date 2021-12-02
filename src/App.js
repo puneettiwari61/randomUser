@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import "./App.css";
+import "./styles/styles.scss";
 import Profile from "./components/Profile";
 import { fetchUser, getUser } from "./store/actions";
 
